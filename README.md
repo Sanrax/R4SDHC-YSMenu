@@ -1,7 +1,5 @@
 Repacked (and fixed) version of YSMenu 7.06, meant for Original R4SDHC flashcarts from r4sdhc.com. Fixed YSMenu auto-boot, DLDI, and soft-reset.
 
----
-
 ## Notes About Fixes
 
 On R4SDHC carts, you would normally get stuck after "Creating TTMenu.sys" with a white screen when booting into YSMenu from the official RGF YSMenu download, because there's a configuration error in the R4SDHC-YSMenu kernel shipped in RGF's 7.06 7z. RGF set up YSMenu to auto-chainload from the stock R4SDHC kernel, by naming it `default.nds`. this is all well and good, but YSMenu *also* autoboots any file named `default.nds`, just like the stock r4sdhc 1.34 kernel.
@@ -14,7 +12,6 @@ A working DLDI file for this cart was also missing, causing homebrew to be broke
 
 Soft-reset was also broken due to a missing TTMenu.dat on SD root. This has also fixed.
 
----
 ## Setup Instructions
 
 Grab a 4GB or smaller SD and format the SD card you are using by following this guide: https://wiki.hacks.guide/wiki/Formatting_an_SD_card
