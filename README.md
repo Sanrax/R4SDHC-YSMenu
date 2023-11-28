@@ -10,7 +10,7 @@ The fix is to edit the YSMenu.ini and change the autoboot file's name to somethi
 
 A working DLDI file for this cart was also missing, causing homebrew to be broken. This has been resolved.
 
-Soft-reset was also broken due to a missing TTMenu.dat on SD root. This has also fixed.
+Soft-reset was also broken due to a missing TTMenu.dat on SD root. This has also been fixed.
 
 ## Setup Instructions
 
