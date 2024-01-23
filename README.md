@@ -10,13 +10,13 @@ The fix is to edit the YSMenu.ini and change the autoboot file's name to somethi
 
 A working DLDI file for this cart was also missing, causing homebrew to be broken. This has been resolved.
 
-Soft-reset was also broken due to a missing TTMenu.dat on SD root. This has also been fixed.
+Soft-reset was also broken due to a missing TTMenu.dat on SD root, and a bad ttreset.dat. This has also been fixed.
 
 ## Setup Instructions
 
 Grab a 4GB or smaller SD and format the SD card you are using by following this guide: https://wiki.hacks.guide/wiki/Formatting_an_SD_card
 
-Download the fixed YSMenu 7.06 for R4SDHC carts: https://github.com/Sanrax/R4SDHC-YSMenu/releases/download/v7.06/R4SDHC-YSMenu-7.06_R2.zip
+Download the fixed YSMenu 7.06 for R4SDHC carts: https://github.com/Sanrax/R4SDHC-YSMenu/releases/download/v7.06/R4SDHC-YSMenu-7.06_R3.zip
 
 Next, extract *the contents* of the downloaded kernel zip to your SD card.
 
